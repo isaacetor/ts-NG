@@ -1,15 +1,14 @@
-import Header from '@/components/header';
-
-import SavingsHowItWorks from '@/components/savings/savings-how-it-works';
-import SavingsOneChallenge from '@/components/savings/savings-one-challenge';
-import SavingsOneFeatures from '@/components/savings/savings-one-features';
-import SavingsOneHero from '@/components/savings/IndividualSavingHero';
-import SavingsReadyCTA from '@/components/savings/savings-ready-cta';
-import SavingsWhatYouGet from '@/components/savings/savings-what-you-get';
-import Footer from '@/components/footer';
-import IndividualSavingGuidance from '@/components/savings/individualSavingGuidance';
-import IndividualSavingForEveryone from '@/components/savings/indivdualSavingsEveryone';
-import IndividualSavingsTrust from '@/components/savings/IndividualSavingsTrust';
+import Footer from '../../_shared/footer';
+import Header from '../../_shared/header';
+import IndividualSavingsChallenge from './_components/challenge';
+import SavingsReadyCTA from './_components/cta';
+import IndividualSavingFeatureGrid from './_components/featureGrid';
+import IndividualSavingSystem from './_components/features';
+import IndividualSavingForEveryone from './_components/forEvertone';
+import IndividualSavingGuidance from './_components/guidance';
+import IndividualSavingHero from './_components/hero';
+import IndividualSavingSteps from './_components/howItWorks';
+import IndividualSavingsTrust from './_components/trust';
 
 export const metadata = {
   title: 'Individual Savings - TrybeSave',
@@ -21,12 +20,12 @@ export default function SavingsForOnePage() {
   return (
     <main>
       <Header />
-      <SavingsOneHero />
-      <SavingsOneChallenge />
-      <SavingsHowItWorks />
-      <SavingsOneFeatures />
+      <IndividualSavingHero />
+      <IndividualSavingsChallenge />
+      <IndividualSavingSteps />
+      <IndividualSavingSystem />
       <IndividualSavingGuidance />
-      <SavingsWhatYouGet />
+      <IndividualSavingFeatureGrid />
       <IndividualSavingForEveryone />
       <IndividualSavingsTrust />
       <SavingsReadyCTA />
