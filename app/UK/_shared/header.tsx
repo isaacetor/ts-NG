@@ -8,7 +8,7 @@ import { Menu, X, ChevronDown } from 'lucide-react';
 import logo from '../../../public/logo/trybesave_logo.png';
 
 /* =========================
-   Animation Config
+   Animation ConfigB
 ========================= */
 const menuVariants: Variants = {
   closed: { opacity: 0, y: -10, transition: { duration: 0.2 } },
@@ -26,12 +26,12 @@ const NAV_LINKS = [
   {
     label: 'Savings',
     subLinks: [
-      { label: 'Individual Savings', href: '/savings/individual' },
-      { label: 'Savings for Couples', href: '/savings/for-couples' },
+      { label: 'Individual Savings', href: '/uk/savings/individual' },
+      { label: 'Savings for Couples', href: '/uk/savings/for-couples' },
     ],
   },
-  { label: 'Remittance', href: '/remittance' },
-  { label: 'About', href: '/about' },
+  { label: 'Remittance', href: '/uk/remittance' },
+  { label: 'About', href: '/uk/about' },
 ];
 
 /* =========================
