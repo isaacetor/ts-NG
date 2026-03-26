@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { motion, AnimatePresence, Variants } from 'framer-motion';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import logo from '../../public/logo/trybesave_logo.png';
+import WaitlistModal from '../components/_utils/WaitlistModal';
 
 /* =========================
    Animation ConfigB
@@ -107,6 +108,7 @@ function MobileMenu({ isOpen }: { isOpen: boolean }) {
 ========================= */
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
+  const [modalOpen, setModalOpen] = useState(false);
 
   const toggleMenu = () => setMobileMenuOpen((prev) => !prev);
 
@@ -174,20 +176,19 @@ export default function Header() {
               Sign in
             </Link> */}
 
-            <Link
-              href="https://forms.gle/qu9xqzoRWkfDCLAc9"
-              target="_blank"
+            <button
+              onClick={() => setModalOpen(true)}
               className="group relative flex items-center gap-2 
-             bg-[#FF00FF] text-white 
-             px-4 py-2 text-[13px]           /* smaller default (mobile) */
-             md:px-6 md:py-2.5 md:text-[15px] /* restore size on desktop */
-             rounded-xl md:rounded-[10px] 
-             font-semibold md:font-bold
-             whitespace-nowrap               /* prevents stretching */
-             hover:bg-[#c400c4] 
-             transition-all shadow-sm active:scale-95">
+  bg-[#FF00FF] text-white 
+  px-4 py-2 text-[13px]
+  md:px-6 md:py-2.5 md:text-[15px]
+  rounded-xl md:rounded-[10px] 
+  font-semibold md:font-bold
+  whitespace-nowrap
+  hover:bg-[#c400c4] 
+  transition-all shadow-sm active:scale-95">
               Get Early Access
-            </Link>
+            </button>
 
             {/* Mobile Toggle */}
             <button
@@ -199,6 +200,10 @@ export default function Header() {
           </div>
         </div>
       </div>
+      <WaitlistModal
+        isOpen={modalOpen}
+        onClose={() => setModalOpen(false)}
+      />
 
       {/* Mobile Menu */}
       <MobileMenu isOpen={mobileMenuOpen} />
