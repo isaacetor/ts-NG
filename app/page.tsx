@@ -1,5 +1,4 @@
-import React from 'react';
-import UK from './UK/page';
+import UK from './uk/page';
 
 const Home = () => {
   return (

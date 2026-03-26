@@ -1,3 +1,5 @@
+import Footer from '../_shared/footer';
+import Header from '../_shared/header';
 import AccrossBorders from './_components/accrossBorders';
 import Feature1 from './_components/feature1';
 import Feature2 from './_components/feature2';
@@ -6,8 +8,6 @@ import Hero from './_components/hero';
 import Security from './_components/security';
 import Testimonials from './_components/testimonial';
 import ModernWorkingClass from './_components/workingClass';
-import Footer from './_shared/footer';
-import Header from './_shared/header';
 
 const UK = () => {
   return (

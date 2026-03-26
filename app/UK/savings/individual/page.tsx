@@ -1,5 +1,5 @@
-import Footer from '../../_shared/footer';
-import Header from '../../_shared/header';
+import Footer from '../../../_shared/footer';
+import Header from '../../../_shared/header';
 import IndividualSavingsChallenge from './_components/challenge';
 import SavingsReadyCTA from './_components/cta';
 import IndividualSavingFeatureGrid from './_components/featureGrid';

@@ -1,5 +1,4 @@
-import Footer from '../_shared/footer';
-import Header from '../_shared/header';
+import Header from '@/app/_shared/header';
 import Remit_CTA from './_components/cta';
 import Remit_Faq from './_components/faq';
 import Remit_Features from './_components/features';
@@ -9,6 +8,7 @@ import Remit_Impact from './_components/impact';
 import Remit_Stories from './_components/realStories';
 import Remit_Steps from './_components/threeSteps';
 import Remit_WhatWeDo from './_components/whatWeDo';
+import Footer from '@/app/_shared/footer';
 
 export default function Remittance() {
   return (

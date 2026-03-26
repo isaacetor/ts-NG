@@ -2,9 +2,9 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '../../../public/logo/trybesave logo 2.png';
+import logo from '../../public/logo/trybesave-logo-2.png';
 import { Instagram } from 'lucide-react';
-import tiktok from '../../../public/svg/tiktok.svg';
+import tiktok from '../../public/svg/tiktok.svg';
 
 const footerSections = [
   {

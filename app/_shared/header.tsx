@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { motion, AnimatePresence, Variants } from 'framer-motion';
 import { Menu, X, ChevronDown } from 'lucide-react';
-import logo from '../../../public/logo/trybesave_logo.png';
+import logo from '../../public/logo/trybesave_logo.png';
 
 /* =========================
    Animation ConfigB
