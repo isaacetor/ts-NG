@@ -1,15 +1,28 @@
 import Hero from './components/hero'
-import BudgetOverview from './components/budget-overview'
-import YourMoney from './components/your-money'
-import SavingsGoals from './components/savings-goals'
+import TrackSpending from './components/track-spending'
+import BuildSavings from './components/build-savings'
+import MoneyStructured from './components/money-structured'
+import NotJustAnotherApp from './components/not-just-another-app'
+import FinancialStrength from './components/financial-strength'
+import CreditThatWorks from './components/credit-that-works'
+import CashbackRewards from './components/cashback-rewards'
+import WhyDifferent from './components/why-different'
+import Header from '@/app/_shared/header'
 
 export default function Home() {
   return (
     <main className="bg-white font-sans">
+      <Header />
       <Hero />
-      <BudgetOverview />
-      <YourMoney />
-      <SavingsGoals />
+      <NotJustAnotherApp />
+       <MoneyStructured />
+        <BuildSavings />
+      <TrackSpending />
+       <CashbackRewards />
+      <FinancialStrength />
+      <CreditThatWorks />
+     
+      <WhyDifferent />
     </main>
   )
 }
