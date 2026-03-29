@@ -7,7 +7,13 @@ import FinancialStrength from './components/financial-strength'
 import CreditThatWorks from './components/credit-that-works'
 import CashbackRewards from './components/cashback-rewards'
 import WhyDifferent from './components/why-different'
+import BuiltForNigerians from './components/built-for-nigerians'
+import HowWeMakeMoney from './components/how-we-make-money'
+import MoneyIsSafe from './components/money-is-safe'
+import RealStories from './components/real-stories'
+import CallToAction from './components/call-to-action'
 import Header from '@/app/_shared/header'
+import Footer from '@/app/_shared/footer'
 
 export default function Home() {
   return (
@@ -15,14 +21,19 @@ export default function Home() {
       <Header />
       <Hero />
       <NotJustAnotherApp />
-       <MoneyStructured />
-        <BuildSavings />
+      <MoneyStructured />
+      <BuildSavings />
       <TrackSpending />
-       <CashbackRewards />
+      <CashbackRewards />
       <FinancialStrength />
       <CreditThatWorks />
-     
       <WhyDifferent />
+      <BuiltForNigerians />
+      <HowWeMakeMoney />
+      <MoneyIsSafe />
+      <RealStories />
+      <CallToAction />
+      <Footer />
     </main>
   )
 }
