@@ -26,7 +26,7 @@ const CreditHero = () => {
 
         {/* Content */}
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center text-white">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-8 leading-tight tracking-tight">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-8 leading-tighter tracking-tight">
             Access credit you <br className="hidden md:block" /> can trust
           </h1>
 

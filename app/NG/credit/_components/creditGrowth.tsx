@@ -10,7 +10,7 @@ const CreditGrowth = () => {
         </span>
 
         {/* Main Section Title */}
-        <h2 className="text-5xl md:text-7xl lg:text-8xl font-black text-white leading-tight tracking-tight">
+        <h2 className="text-5xl md:text-7xl lg:text-8xl font-black text-white leading-tighter tracking-tight">
           Credit that grows with you
         </h2>
 

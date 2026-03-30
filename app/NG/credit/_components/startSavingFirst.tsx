@@ -24,7 +24,7 @@ const StartSavingFirst = () => {
 
   return (
     <section className="w-full bg-[#26022A]  ">
-      <div className="w-[90%] bg-white mx-auto px-6 py-20 md:py-32">
+      <div className="w-[90%] rounded-xl bg-white mx-auto px-6 py-20 md:py-32">
         {/* Header Section */}
         <div className="text-center mb-16 md:mb-24 space-y-4">
           <h2 className="text-4xl md:text-6xl font-black text-[#0A0A0A] tracking-tight">
