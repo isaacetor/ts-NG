@@ -1,9 +1,11 @@
-import React from 'react';
+'use client';
+
 import Image from 'next/image';
 import hero from '../../../../../public/coupleHeroImg.jpg';
-import Link from 'next/link';
+import { useWaitlistModal } from '@/app/context/WaitlistModalContext';
 
 const SavingsCouplesHero: React.FC = () => {
+  const { openModal } = useWaitlistModal();
   return (
     <section className="bg-white py-12 md:py-16 px-5 md:px-16 lg:px-24">
       <div className="max-w-7xl mx-auto border border-gray-200 rounded-[10px] overflow-hidden">
@@ -21,9 +23,8 @@ const SavingsCouplesHero: React.FC = () => {
             </p>
 
             <div className="flex items-center gap-3 pt-2 md:pt-4">
-              <Link
-                href="https://forms.gle/qu9xqzoRWkfDCLAc9"
-                target="_blank"
+              <button
+                onClick={openModal}
                 className="bg-[#E600FF] hover:bg-[#c400d9] text-white 
                        px-5 py-2.5 text-[13px]
                        md:px-8 md:py-3 md:text-sm
@@ -31,12 +32,12 @@ const SavingsCouplesHero: React.FC = () => {
                        font-semibold md:font-bold
                        transition-all shadow-md active:scale-95 whitespace-nowrap">
                 Get Early Access
-              </Link>
+              </button>
             </div>
           </div>
 
           {/* Right Illustration Column */}
-          <div className="relative min-h-[280px] md:min-h-[400px] lg:min-h-[600px] bg-[#FDFDFD]">
+          <div className="relative min-h-70 md:min-h-100 lg:min-h-150 bg-[#FDFDFD]">
             <Image
               src={hero}
               alt="Couples saving together illustration"

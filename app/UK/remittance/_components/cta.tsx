@@ -1,7 +1,9 @@
-import Link from 'next/link';
+'use client';
+import { useWaitlistModal } from '@/app/context/WaitlistModalContext';
 import React from 'react';
 
 const Remit_CTA: React.FC = () => {
+  const { openModal } = useWaitlistModal();
   return (
     <section className="bg-white py-16 md:py-24 px-5 md:px-16 lg:px-24">
       <div className="max-w-4xl mx-auto text-center space-y-6 md:space-y-8">
@@ -17,9 +19,8 @@ const Remit_CTA: React.FC = () => {
 
         {/* Primary Action Link */}
         <div className="pt-2 md:pt-4">
-          <Link
-            href="https://forms.gle/qu9xqzoRWkfDCLAc9"
-            target="_blank"
+          <button
+            onClick={openModal}
             className="bg-[#E600FF] hover:bg-[#c400d9] text-white 
                    px-5 py-2.5 text-[14px]
                    md:px-8 md:py-4 md:text-base
@@ -29,7 +30,7 @@ const Remit_CTA: React.FC = () => {
                    shadow-md 
                    active:scale-95 whitespace-nowrap">
             Get Early Access
-          </Link>
+          </button>
         </div>
       </div>
     </section>

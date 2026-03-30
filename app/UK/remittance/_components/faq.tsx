@@ -67,9 +67,9 @@ const Remit_Faq: React.FC = () => {
             </p>
           </div>
 
-          <button className="bg-white border border-black text-black px-10 py-3 rounded-xl font-bold text-sm hover:bg-[#C400D9] hover:text-white transition-all duration-300">
+          {/* <button className="bg-white border border-black text-black px-10 py-3 rounded-xl font-bold text-sm hover:bg-[#C400D9] hover:text-white transition-all duration-300">
             Contact
-          </button>
+          </button> */}
         </div>
       </div>
     </section>

@@ -1,9 +1,13 @@
+'use client';
+
 import React from 'react';
 import Image from 'next/image';
 import heroImage from '../../../../public/remit_hero.png';
-import Link from 'next/link';
+import { useWaitlistModal } from '@/app/context/WaitlistModalContext';
 
 const Remit_Hero: React.FC = () => {
+  const { openModal } = useWaitlistModal();
+
   return (
     <section className="bg-white min-h-150 w-full flex items-center px-5 py-12 md:px-16 lg:px-24 overflow-hidden">
       <div className="max-w-7xl mx-auto w-full flex flex-col lg:flex-row items-center justify-between gap-10 md:gap-12">
@@ -19,9 +23,8 @@ const Remit_Hero: React.FC = () => {
             build your own future while supporting family.
           </p>
 
-          <Link
-            href="https://forms.gle/qu9xqzoRWkfDCLAc9"
-            target="_blank"
+          <button
+            onClick={openModal}
             className="bg-[#E600FF] hover:bg-[#c400d9] text-white 
                          px-5 py-2.5 text-[13px]
                          md:px-8 md:py-3 md:text-sm
@@ -30,7 +33,7 @@ const Remit_Hero: React.FC = () => {
                          transition-colors duration-300 
                          shadow-sm w-fit whitespace-nowrap active:scale-95">
             Get Early Access
-          </Link>
+          </button>
         </div>
 
         {/* Right Content */}
