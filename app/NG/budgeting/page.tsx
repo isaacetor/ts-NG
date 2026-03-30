@@ -3,6 +3,7 @@ import NG_Header from '../_shared/NG_header';
 import BudHero from './_components/BudHero';
 import CashbackProcess from './_components/CashbackProcess';
 import ComparisonTable from './_components/comparisonTable';
+import FinalBudgetFeatures from './_components/finalBudgetFeature';
 import SpendingToSavings from './_components/spendingToSaving';
 
 const Budgeting = () => {
@@ -13,6 +14,7 @@ const Budgeting = () => {
       <SpendingToSavings />
       <CashbackProcess />
       <ComparisonTable />
+      <FinalBudgetFeatures />
       <NG_Footer />
     </div>
   );
