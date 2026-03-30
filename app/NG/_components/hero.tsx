@@ -5,8 +5,8 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
-import pic from '../../public/ng_home_hero.png';
-import WaitlistModal from '../components/_utils/WaitlistModal';
+import pic from '../../../public/ng_home_hero.png';
+import WaitlistModal from '../../components/_utils/WaitlistModal';
 
 const HERO_CONTENT = {
   title: 'The Smarter Way to Manage Your Money in Nigeria',

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import WaitlistModal from '../components/_utils/WaitlistModal';
+import WaitlistModal from '../../components/_utils/WaitlistModal';
 
 const CallToAction = () => {
   const [isOpen, setIsOpen] = useState(false);
