@@ -46,7 +46,7 @@ const CreditHero = () => {
 
             {/* SECOND BUTTON */}
             <Link
-              href="/ng/about-us"
+              href="/ng/about"
               className="w-full sm:w-auto border-2 border-white/40 hover:border-white bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white text-lg md:text-xl font-bold px-8 py-5 rounded-xl transition-all duration-300">
               See How It Works
             </Link>

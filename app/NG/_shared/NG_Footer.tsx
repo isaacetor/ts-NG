@@ -13,7 +13,7 @@ const footerSections = [
       { label: 'Credit', href: '/ng/credit' },
       { label: 'Saving', href: '/ng/saving' },
       { label: 'Budgeting', href: '/ng/budgeting' },
-      { label: 'About us', href: '/ng/about-us' },
+      { label: 'About us', href: '/ng/about' },
     ],
   },
   {
@@ -50,7 +50,7 @@ export default function NG_Footer() {
           {/* Brand */}
           <div>
             <Link
-              href="/"
+              href="/ng"
               className="flex items-center gap-3 mb-6">
               <Image
                 src={logo}

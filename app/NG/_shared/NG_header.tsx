@@ -27,7 +27,7 @@ const NAV_LINKS = [
   { label: 'Credit', href: '/ng/credit' },
   { label: 'Saving', href: '/ng/saving' },
   { label: 'Budgeting', href: '/ng/budgeting' },
-  { label: 'About us', href: '/ng/about-us' },
+  { label: 'About us', href: '/ng/about' },
 ];
 
 /* =========================
@@ -75,7 +75,7 @@ export default function NG_Header() {
           {/* Left: Logo + Nav */}
           <div className="flex items-center gap-10">
             <Link
-              href="/"
+              href="/ng"
               className="shrink-0">
               <Image
                 src={logo}
