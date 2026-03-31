@@ -1,13 +1,13 @@
 import Footer from '../_shared/footer';
 import Header from '../_shared/header';
-import AccrossBorders from './_components/accrossBorders';
-import Feature1 from './_components/feature1';
-import Feature2 from './_components/feature2';
-import FiancialLife from './_components/fiancialLife';
-import Hero from './_components/hero';
-import Security from './_components/security';
-import Testimonials from './_components/testimonial';
-import ModernWorkingClass from './_components/workingClass';
+import AccrossBorders from './accrossBorders';
+import Feature1 from './feature1';
+import Feature2 from './feature2';
+import FiancialLife from './fiancialLife';
+import Hero from './hero';
+import Security from './security';
+import Testimonials from './testimonial';
+import ModernWorkingClass from './workingClass';
 
 export function Uk_Home() {
   return (

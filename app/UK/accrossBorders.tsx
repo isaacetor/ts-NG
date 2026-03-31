@@ -1,9 +1,9 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
-import img1 from '../../../public/5.png';
-import img2 from '../../../public/2(1).png';
-import img3 from '../../../public/1.png';
+import img1 from '../../public/5.png';
+import img2 from '../../public/2(1).png';
+import img3 from '../../public/1.png';
 
 const SECTIONS = [
   {

@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import pic from '../../../public/10-1.png';
+import pic from '../../public/10-1.png';
 
 const CONTENT1_DATA = {
   title: 'See Your Money Clearly.',

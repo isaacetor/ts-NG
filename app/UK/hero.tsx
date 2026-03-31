@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
-import pic from '../../../public/aug__25.png';
+import pic from '../../public/aug__25.png';
 import WaitlistModal from '@/app/components/_utils/WaitlistModal';
 
 const HERO_CONTENT = {

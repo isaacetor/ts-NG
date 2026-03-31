@@ -1,9 +1,9 @@
 'use client';
 
 import Image, { StaticImageData } from 'next/image';
-import pic1 from '../../../public/6.png';
-import pic2 from '../../../public/7.png';
-import pic3 from '../../../public/4.png';
+import pic1 from '../../public/6.png';
+import pic2 from '../../public/7.png';
+import pic3 from '../../public/4.png';
 
 // Section configsS
 const SECTION_TYPE_1 = {
