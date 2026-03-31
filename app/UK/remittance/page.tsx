@@ -1,14 +1,14 @@
-import Header from '@/app/_shared/header';
-import Remit_CTA from './_components/cta';
-import Remit_Faq from './_components/faq';
-import Remit_Features from './_components/features';
-import Remit_HelpThem from './_components/helpThem';
-import Remit_Hero from './_components/hero';
-import Remit_Impact from './_components/impact';
-import Remit_Stories from './_components/realStories';
-import Remit_Steps from './_components/threeSteps';
-import Remit_WhatWeDo from './_components/whatWeDo';
-import Footer from '@/app/_shared/footer';
+import Header from '@/app/components/header';
+import Footer from '@/app/components/footer';
+import Remit_Hero from '@/app/components/uk_remitttance/hero';
+import Remit_WhatWeDo from '@/app/components/uk_remitttance/whatWeDo';
+import Remit_HelpThem from '@/app/components/uk_remitttance/helpThem';
+import Remit_Steps from '@/app/components/uk_remitttance/threeSteps';
+import Remit_Features from '@/app/components/uk_remitttance/features';
+import Remit_Impact from '@/app/components/uk_remitttance/impact';
+import Remit_Stories from '@/app/components/uk_remitttance/realStories';
+import Remit_Faq from '@/app/components/uk_remitttance/faq';
+import Remit_CTA from '@/app/components/uk_remitttance/cta';
 
 export default function Remittance() {
   return (
@@ -23,7 +23,6 @@ export default function Remittance() {
       <Remit_Stories />
       <Remit_Faq />
       <Remit_CTA />
-
       <Footer />
     </main>
   );

@@ -1,14 +1,14 @@
-import Header from '@/app/_shared/header';
-import SavingsCouplesMattersPage from './_components/couple_matters';
-import SavingsCouplesStress from './_components/couple_save';
-import SavingsReadyCTA from './_components/cta';
-import SavingsCouplesFeatures from './_components/feature';
-import SavingFriction from './_components/friction';
-import SavingsCouplesHero from './_components/hero';
-import SavingsCouplesTestimonial from './_components/testimonial';
-import SavingsCouplesTransparency from './_components/transparency';
-import SavingsCouplesTrust from './_components/trust';
-import Footer from '@/app/_shared/footer';
+import Header from '@/app/components/header';
+import Footer from '@/app/components/footer';
+import SavingsCouplesHero from '@/app/components/uk_savings/couple/hero';
+import SavingsCouplesStress from '@/app/components/uk_savings/couple/couple_save';
+import SavingsCouplesFeatures from '@/app/components/uk_savings/couple/feature';
+import SavingsCouplesTestimonial from '@/app/components/uk_savings/couple/testimonial';
+import SavingsCouplesMattersPage from '@/app/components/uk_savings/couple/couple_matters';
+import SavingsCouplesTransparency from '@/app/components/uk_savings/couple/transparency';
+import SavingFriction from '@/app/components/uk_savings/couple/friction';
+import SavingsCouplesTrust from '@/app/components/uk_savings/couple/trust';
+import SavingsReadyCTA from '@/app/components/uk_savings/couple/cta';
 
 export const metadata = {
   title: 'Savings for Couples - TrybeSave',

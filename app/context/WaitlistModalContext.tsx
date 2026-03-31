@@ -1,7 +1,7 @@
 'use client';
 
 import { createContext, useContext, useState, ReactNode } from 'react';
-import WaitlistModal from '../components/_utils/WaitlistModal';
+import WaitlistModal from '../components/utils/WaitlistModal';
 
 type ContextType = {
   openModal: () => void;

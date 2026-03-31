@@ -1,11 +1,11 @@
-import Header from '@/app/_shared/header';
-import { AboutFoundersMessage } from './_components/aboutFounder';
-import { AboutCommunity } from './_components/community';
-import { AboutFinancialStability } from './_components/financialStability';
-import { AboutFriendsChallenge } from './_components/friendsChallenge';
-import { AboutHero } from './_components/hero';
-import { AboutMission } from './_components/mission';
-import Footer from '@/app/_shared/footer';
+import Header from '@/app/components/header';
+import Footer from '@/app/components/footer';
+import { AboutHero } from '@/app/components/uk_about/hero';
+import { AboutMission } from '@/app/components/uk_about/mission';
+import { AboutCommunity } from '@/app/components/uk_about/community';
+import { AboutFinancialStability } from '@/app/components/uk_about/financialStability';
+import { AboutFriendsChallenge } from '@/app/components/uk_about/friendsChallenge';
+import { AboutFoundersMessage } from '@/app/components/uk_about/aboutFounder';
 
 export default function Remittance() {
   return (

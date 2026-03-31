@@ -1,16 +1,16 @@
-import CreditHero from './_components/hero';
-import NG_Header from '../_shared/NG_header';
-import NG_Footer from '../_shared/NG_Footer';
-import UnfairCredit from './_components/unfairCredit';
-import CreditDiscipline from './_components/creditDiscipline';
-import CreditGrowth from './_components/creditGrowth';
-import StartSavingFirst from './_components/startSavingFirst';
-import SavingsFirstStep from './_components/SavingFiratStep';
-import CreditContrast from './_components/creditContrast';
-import UserPersonas from './_components/userPersona';
-import SecurityAndTrust from './_components/securityAndTrust';
-import CreditInsights from './_components/CreditInsights';
-import BuildCreditJourney from './_components/BuildCreditJourney';
+import SecurityAndTrust from '@/app/components/ng_credit/securityAndTrust';
+import CreditInsights from '@/app/components/ng_credit/CreditInsights';
+import BuildCreditJourney from '@/app/components/ng_credit/BuildCreditJourney';
+import NG_Header from '@/app/components/NG_shared/NG_header';
+import CreditHero from '@/app/components/ng_credit/hero';
+import UnfairCredit from '@/app/components/ng_credit/unfairCredit';
+import CreditDiscipline from '@/app/components/ng_credit/creditDiscipline';
+import CreditGrowth from '@/app/components/ng_credit/creditGrowth';
+import StartSavingFirst from '@/app/components/ng_credit/startSavingFirst';
+import SavingsFirstStep from '@/app/components/ng_credit/SavingFiratStep';
+import CreditContrast from '@/app/components/ng_credit/creditContrast';
+import UserPersonas from '@/app/components/ng_credit/userPersona';
+import NG_Footer from '@/app/components/NG_shared/NG_Footer';
 
 const Credit = () => {
   return (

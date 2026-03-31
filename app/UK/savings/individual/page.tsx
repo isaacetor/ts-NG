@@ -1,14 +1,14 @@
-import Footer from '../../../_shared/footer';
-import Header from '../../../_shared/header';
-import IndividualSavingsChallenge from './_components/challenge';
-import SavingsReadyCTA from './_components/cta';
-import IndividualSavingFeatureGrid from './_components/featureGrid';
-import IndividualSavingSystem from './_components/features';
-import IndividualSavingForEveryone from './_components/forEvertone';
-import IndividualSavingGuidance from './_components/guidance';
-import IndividualSavingHero from './_components/hero';
-import IndividualSavingSteps from './_components/howItWorks';
-import IndividualSavingsTrust from './_components/trust';
+import Footer from '@/app/components/footer';
+import Header from '@/app/components/header';
+import IndividualSavingsChallenge from '@/app/components/uk_savings/individual/challenge';
+import SavingsReadyCTA from '@/app/components/uk_savings/individual/cta';
+import IndividualSavingFeatureGrid from '@/app/components/uk_savings/individual/featureGrid';
+import IndividualSavingSystem from '@/app/components/uk_savings/individual/features';
+import IndividualSavingForEveryone from '@/app/components/uk_savings/individual/forEvertone';
+import IndividualSavingGuidance from '@/app/components/uk_savings/individual/guidance';
+import IndividualSavingHero from '@/app/components/uk_savings/individual/hero';
+import IndividualSavingSteps from '@/app/components/uk_savings/individual/howItWorks';
+import IndividualSavingsTrust from '@/app/components/uk_savings/individual/trust';
 
 export const metadata = {
   title: 'Individual Savings - TrybeSave',
