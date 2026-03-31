@@ -1,5 +1,4 @@
-import Uk_Home from './uk/page';
-
+import Uk_Home from '@/app/uk/page';
 const Home = () => {
   return (
     <div>

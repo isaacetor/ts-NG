@@ -94,7 +94,7 @@ const Remit_Impact: React.FC = () => {
 
             <div className="group space-y-4 transition-all duration-500 hover:scale-105">
               <span className="text-6xl md:text-7xl font-bold text-black block">
-                ${billions}B
+                £{billions}B
               </span>
               <p className="text-gray-600 text-base md:text-lg leading-relaxed">
                 sent annually in remittances with no financial planning tools
