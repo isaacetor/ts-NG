@@ -1,14 +1,14 @@
-import Header from '@/app/components/header';
-import Footer from '@/app/components/footer';
-import Remit_Hero from '@/app/components/uk_remitttance/hero';
-import Remit_WhatWeDo from '@/app/components/uk_remitttance/whatWeDo';
-import Remit_HelpThem from '@/app/components/uk_remitttance/helpThem';
-import Remit_Steps from '@/app/components/uk_remitttance/threeSteps';
-import Remit_Features from '@/app/components/uk_remitttance/features';
-import Remit_Impact from '@/app/components/uk_remitttance/impact';
-import Remit_Stories from '@/app/components/uk_remitttance/realStories';
-import Remit_Faq from '@/app/components/uk_remitttance/faq';
-import Remit_CTA from '@/app/components/uk_remitttance/cta';
+import Header from '@/components/header';
+import Footer from '@/components/footer';
+import Remit_Hero from '@/components/uk_remitttance/hero';
+import Remit_WhatWeDo from '@/components/uk_remitttance/whatWeDo';
+import Remit_HelpThem from '@/components/uk_remitttance/helpThem';
+import Remit_Steps from '@/components/uk_remitttance/threeSteps';
+import Remit_Features from '@/components/uk_remitttance/features';
+import Remit_Impact from '@/components/uk_remitttance/impact';
+import Remit_Stories from '@/components/uk_remitttance/realStories';
+import Remit_Faq from '@/components/uk_remitttance/faq';
+import Remit_CTA from '@/components/uk_remitttance/cta';
 
 export default function Remittance() {
   return (

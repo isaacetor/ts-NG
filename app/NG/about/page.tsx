@@ -1,11 +1,11 @@
-import { AboutHero } from '@/app/components/uk_about/hero';
-import AboutUs from '@/app/components/NG_about/aboutUs';
-import WhyWeBuilt from '@/app/components/NG_about/WhyWeBuilt';
-import { OurMission } from '@/app/components/NG_about/ourMission';
-import JoinUs from '@/app/components/NG_about/joinUs';
-import AboutFounder from '@/app/components/NG_about/aboutFounder';
-import NG_Footer from '@/app/components/NG_shared/NG_Footer';
-import NG_Header from '@/app/components/NG_shared/NG_header';
+import AboutUs from '@/components/NG_about/aboutUs';
+import WhyWeBuilt from '@/components/NG_about/WhyWeBuilt';
+import { OurMission } from '@/components/NG_about/ourMission';
+import JoinUs from '@/components/NG_about/joinUs';
+import AboutFounder from '@/components/NG_about/aboutFounder';
+import NG_Footer from '@/components/NG_shared/NG_Footer';
+import NG_Header from '@/components/NG_shared/NG_header';
+import AboutHero from '@/components/NG_about/aboutHero';
 
 const About = () => {
   return (
