@@ -8,8 +8,9 @@
 // import Security from './uk/_components/security';
 // import Testimonials from './uk/_components/testimonial';
 // import ModernWorkingClass from './uk/_components/workingClass';
+'use client';
 
-import Uk_Home from './uk/page';
+import Homepage from './uk/_components/Home';
 
 const Home = () => {
   return (
@@ -24,7 +25,7 @@ const Home = () => {
       <Security />
       <Testimonials />
       <Footer /> */}
-      <Uk_Home />
+      <Homepage />
     </main>
   );
 };
