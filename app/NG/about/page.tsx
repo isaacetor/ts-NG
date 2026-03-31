@@ -5,7 +5,7 @@ import AboutUs from './_components/aboutUs';
 import WhyWeBuilt from './_components/WhyWeBuilt';
 import { OurMission } from './_components/ourMission';
 import JoinUs from './_components/joinUs';
-import { AboutFoundersMessage } from '@/app/uk/about/_components/aboutFounder';
+import AboutFounder from './_components/aboutFounder';
 
 const About = () => {
   return (
@@ -16,7 +16,7 @@ const About = () => {
       <WhyWeBuilt />
       <OurMission />
       <JoinUs />
-      <AboutFoundersMessage />
+      <AboutFounder />
       <NG_Footer />
     </div>
   );
