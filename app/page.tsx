@@ -10,7 +10,7 @@
 // import ModernWorkingClass from './uk/_components/workingClass';
 'use client';
 
-import Homepage from './uk/_components/Home';
+import Homepage from './uk/components/Home';
 
 const Home = () => {
   return (
