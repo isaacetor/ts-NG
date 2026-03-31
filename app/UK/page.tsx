@@ -9,7 +9,7 @@ import Security from './_components/security';
 import Testimonials from './_components/testimonial';
 import ModernWorkingClass from './_components/workingClass';
 
-const UK = () => {
+const Uk_Home = () => {
   return (
     <main>
       <Header />
@@ -26,4 +26,4 @@ const UK = () => {
   );
 };
 
-export default UK;
+export default Uk_Home;
